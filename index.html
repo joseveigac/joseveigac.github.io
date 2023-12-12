@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Jose Veiga">
+  <meta name="description" content="Jose Veiga's VideoGame Developer Portfolio">
+  <meta name="keywords" content="Godot, Unity, Unreal, C, C++, C#, Portfolio, Game Developer, Game Programmer, Desarrollador de Videojuegos">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Title -->
+  <title>Jose Veiga | Game Programmer</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/jv-high-resolution-logo.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md fixed-top navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+          <img src="images/jv-high-resolution-logo.png" width="125" alt="Website Logo">
+          <div class="navbar-profile">
+            <h1>Jose Veiga</h1>
+            <h2>Game Programmer</h2>
+          </div>
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link navbar-text" aria-current="page" href="#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-text" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-text" href="#game-engine">Game Engines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-text" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-text" href="#education">Education</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section-->
+  <!-- <section class=" dark-section align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <h1>Jose Veiga | Game Developer</h1>
+      <h2>Object Oriented Specialized Programmer</h2>
+    </div>
+  </section> -->
+  <!-- About Me Section -->
+  <section class="about-me">
+    <a id="about-me"></a>
+    <div class="container-am">
+      <h2 class="title-section white-text">About me</h2>
+      <p class="text-section white-text">Hello, I'm Jose, a 23-year-old from Barcelona game programmer who loves new challenges. Having well-structured, well-written code, 
+        and taking on new challenges are my passions. I spend most of my leisure time programming, improving my skills, and testing new features. 
+        My main area of expertise is Gameplay. I love experimenting with different combat styles: 2D, Top-Down, 3D, First Person, and studying different game engines 
+        that catch my attention.</p>
+    </div>
+  </section>
+    <!-- Projects -->
+    <section class="projects d-flex flex-column">
+      <a id="projects"></a>
+      <h2 class="title-section white-text">Personal Projects</h2>
+      <!-- Project Gallery -->
+      <div class="container text-center projects-container">
+        <div class="row justify-content-evenly">
+          <!-- Project 1 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="project">
+                <video width="640px" autoplay loop muted description="FPSUnreal Project"> 
+                  <source src="EditedVideos/FPS Project - Unreal Engine.mp4" type="video/mp4" />
+                </video>
+                <div class="overlay white-text image-footer">
+                  <div class="row">
+                    <span class="col-12">FPS, Camera System and Enemy IA made with Unreal Engine using Blueprints and C++</span>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="project">
+              <video width="640px" autoplay loop muted description="AndroidJRPG Project">
+                <source src="EditedVideos/Pixel Aventurer Animated.mp4" type="video/mp4" />
+              </video>
+                <div class="overlay white-text image-footer">
+                  <div class="row">
+                    <span class="col-12">2D Animated Character with Movement and Attack made with Unity in C#</span>
+
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <!-- Project 3 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="project">
+                <video width="640px" autoplay loop muted>
+                  <source src="EditedVideos/TopDown Movement & Loot - Unity.mp4" type="video/mp4" />
+                </video>
+                  <div class="overlay white-text image-footer">
+                    <div class="row">
+                      <span class="col-12">Top-Down Movement with Loot System made with Unity in C#</span>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="project">
+                <video width="640px" autoplay loop muted description="Portal2 Project">
+                  <source src="EditedVideos/Npc.mp4" type="video/mp4" />
+                </video>
+                <div class="overlay white-text image-footer">
+                  <div class="row">
+                    <span class="col-12">Walkable NPC targeted by Turret as Enemy made with Valve Hammer Editor</span>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <!-- Project 5 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="project">
+              <video width="640px" autoplay loop muted description="AndroidJRPG Project">
+                <source src="EditedVideos/Visual Inventory.mp4" type="video/mp4" />
+              </video>
+                <div class="overlay white-text image-footer">
+                  <div class="row">
+                    <span class="col-12">Visual Inventory with Stats and Items System made with Unity in C#</span>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- Project 6 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="project">
+                <video width="640px" autoplay loop muted description="FPSUnreal Project"> 
+                  <source src="EditedVideos/JRPG Android.mp4" video="/mp4" />
+                </video>
+                <div class="overlay white-text image-footer">
+                  <div class="row">
+                    <span class="col-12">Android JRPG Project made with Unity in C#</span>
+
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  <!-- Game Engine Section -->
+  <section class="game-engine dark-section">
+    <a id="game-engine"></a>
+    <div class="container text-center">
+      <h1 class="title-section">Game Engines</h1>
+      <div class="row">
+        <!-- Technical Experience -->
+        <div class="column-game-engine col-12 col-md-4">
+          <i class="bi bi-unity"></i>
+          <p class="title-game-engine">Unity</p>
+          <p>Unity is the engine that i have used the most, I've been using it since I was 19 years old. It was the first motor i used in High Certificate, there i developed a Survival FPS as a first project and then
+            a 2D Turn-based combat System in a team size of 3 using GitHub in one month. And worked afterwards on two profesional projects.
+          </p>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">C#</span>
+            <span class="badge text-bg-primary">Unity</span>
+          </div>
+        </div>
+        <!-- Game Engines -->
+        <div class="column-game-engine col-12 col-md-4">
+          <img src="images/unreal-engine.svg" alt="Bootstrap" width="80" height="80">
+          <p class="title-game-engine">Unreal Engine 5</p>
+          <p>Unreal is a C++ engine I learned to use through an online course and mostly on my own. The project i worked on my own was a FPS using Events, Blueprints, C++,
+            Animations, Gameplay... I would use this engine with 3D realistic graphics or open-world games. It also has a lot of free commercial assets every month to add to
+            your collection permanently, which is amazing!
+          </p>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">C++</span>
+            <span class="badge text-bg-primary">Unreal Engine 5</span>
+          </div>
+          <p></p>
+        </div>
+        <!-- Education -->
+        <div class="column-game-engine col-12 col-md-4">
+          <img src="images/Godot_icon.svg" alt="Bootstrap" width="80" height="80" class="center-image">
+          <p class="title-game-engine">Godot</p>
+          <p>Godot is an Event-Oriented engine ( Signals! ) which made me love it. It's one of my favorite engines without a doubt, i really would like to work in a project with it.
+            It can be used with C# and C++ but the GDScript was easy to learn and use with all the documentation so i will recommend that language to use.</p>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">GDScript</span>
+            <span class="badge text-bg-primary">Godot Engine</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section -->
+  <section class="experience">
+    <a id="experience"></a>
+    <div class="container text-center white-text d-flex flex-row">
+      <div class="row">
+        <h1 class="title-section">Experience & Profesional Projects</h1>
+          <a href="https://store.steampowered.com/app/819470/Trainpunk_Run/" class="row row-experience profesional-project" target="_blank" rel="noopener noreferrer">
+            <div class="col-lg-7 col-md-12">
+              <img src="images/Trainpunk.jpg" alt="TrainPunk image" class="img-fluid">
+            </div>
+            <div class="col-lg-5 col-sm-12">
+              <h2>Trainpunk Run</h2><br>
+              <h3>Jellyworld Games</h3>
+              <h3>Available on Steam</h3>
+              <p><b>Programmer at Trainpunk Run / Jellyworld Games. Developed on Unity.</b><br>
+                <br> - GUI and HUD Behaviours & Events
+                <br> - Player Input System 
+                <br> - Localizer Asset
+                <br> </p>
+            </div>
+          </a>
+
+          <a href="https://store.steampowered.com/app/2223760/My_Daily_Pets/" class="row row-experience profesional-project" target="_blank" rel="noopener noreferrer">
+            <div class="col-lg-7 col-md-12">
+              <img src="images/DailyPets.jpg" alt="My Daily Pets image" class="img-fluid">
+            </div>
+            <div class="col-lg-5 col-md-12">
+              <h2>My Daily Pets</h2><br>
+              <h3>Jellyworld Games</h3>
+              <h3>Available on Steam</h3>
+              <p><b>Programmer at Trainpunk Run / Jellyworld Games. Developed on Unity.</b> <br>
+                <br> - GUI and HUD Behaviours & Events 
+                <br> - Animation System 
+                <br> - Minigames Gameplay</p>
+            </div>
+          </a>
+      </div>
+    </div>
+  </section>
+  <section class="education dark-section">
+    <a id="education"></a>
+    <div class="container text-center">
+      <h1 class="title-section">Education</h1>
+        <div class="row justify-content-center">
+          <div class="column-education col-12 col-md-4">
+            <p class="title-game-engine">Bachelor's Degree</p>
+            <p>I obtained my Bachelor's Degree at GOAR, an institute in Viladecans. There, I worked with Scratch and App Inventor,
+               where I created a Clicker for Android called 'Egg Clicker'. </p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">Scratch</span>
+              <span class="badge text-bg-primary">MIT App Inventor</span>
+            </div>
+          </div> 
+          <div class="column-education col-12 col-md-4">
+            <p class="title-game-engine">High Certificate of Development of Multiplatform Applications Oriented to Video Games</p>
+            <p>In this course, I completed several projects with Unity, learned to use a variety of languages, and experienced different 
+              agile workouts.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">C / C++</span>
+              <span class="badge text-bg-primary">C#</span>
+              <span class="badge text-bg-primary">Java</span>
+              <span class="badge text-bg-primary">HTML & CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">MySQL</span>
+              <span class="badge text-bg-primary">Unity</span>
+              <span class="badge text-bg-primary">GitHub</span>
+            </div>
+          </div> 
+        </div>
+    </div>
+    
+  </section>
+  <!-- Footer -->
+  <footer class="footer-style-section d-flex flex-column align-items-center justify-content-center">
+    <p class="footer-text text-center">Passion to game development.<br>Let's work together!</p>
+    <div class="social-network-icon d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jose-manuel-veiga-cami%C3%B1os-8057261b8/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="mailto:jveigacaminos@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope-at"></i>
+      </a>
+    </div>
+    <div class="copyright">Created by Jose Veiga (2023) &#169;</div>
+  </footer>
+
+  <!-- Bootstrap JS at the end of body -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
